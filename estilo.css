@@ -1,0 +1,264 @@
+* {
+	font-family: arial;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.txt{
+	text-align: center;
+}
+
+.container{
+	width: 400px;
+	height: auto;
+	border-radius: 8px;
+	border:1px solid #888888;
+	box-shadow: 5px 5px 5px #888888;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -200px;
+	padding-bottom: 10px;
+}
+
+form{
+	margin-top: 15px;
+	margin-left: 25px;
+}
+
+form .campo{
+	width: 330px;
+	margin-top: 5px;
+	padding: 7px 6px 7px 6px;
+	border: 1px solid #888888;
+	border-radius: 4px;
+	margin-bottom: 6px;
+}
+
+.btn{
+	background-color: green;
+	height: 40px;
+	color: #FFFFFF;
+	border: 0;
+	border-radius: 2px;
+	font-weight: 700;
+	cursor: pointer;
+	transition: all 1s linear;
+	margin-top: 6px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.btn:hover{
+	background-color: red;
+}
+
+.containerMenu{
+	background: linear-gradient(to bottom, red, #888888);
+}
+
+.menuTopo{
+	width: 1200px;
+	height: 56px;
+	margin: auto;
+}
+
+.logo{
+	float: left;
+	line-height: 56px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: 2px 2px 5px #000000;
+}
+
+.boxBuscar{
+	float: left;
+}
+
+.campoBusca{
+	width: 500px;
+	margin-top: -5px;
+	padding: 7px;
+	margin-left: 18px;
+	font-size: 18px;
+	border-radius: 4px;
+	border: 1px solid #888888;
+}
+
+.listaMenuTopo{
+	float: right;
+}
+
+.listaMenuTopo ul, .listaMenuTopo li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.listaMenuTopo li a{
+	color: #FFFFFF;
+	line-height: 56px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.listaMenuTopo li a:hover{
+	color: green;
+	font-weight: bold;
+}
+
+.containerCont{
+	width: 1200px;
+	margin: auto;
+}
+
+.txtLista{
+	width: 1200px;
+	margin: auto;
+	margin-top: 20px;
+	font-size: 35px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px red;
+}
+
+.lista{
+	width: 1200px;
+	margin: auto;
+	border: 1px solid #888888;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px #888888;
+	margin-top: 15px;
+	padding: 5px 20px 20px 20px;
+}
+
+.lista table{
+	width: 100%;
+	text-align: left;
+}
+
+.lista tr{
+	font-weight: bold;
+}
+
+.lista th{
+	background: linear-gradient(to bottom, red, #FFFFFF);
+	border-radius: 8px;
+	padding: 10px;
+	text-align: center;
+}
+
+.lista td{
+	background-color: #eaeaea;
+	border-radius: 8px;
+	padding: 10px;
+}
+
+.center{
+	text-align: center;
+}
+
+.center a{
+	color: #000000;
+	text-decoration: none;
+}
+
+.center a:hover{
+	color: blue;
+}
+
+.paginacao{
+	margin-top: 10px;
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.paginacao a{
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.txtPagaInvalida{
+
+	text-align: center;
+	font-size: 30px;
+	color: red;
+	font-weight: bold;
+	text-shadow: 2px 2px 1px #888888;
+}
+
+.txtStatus{
+	font-size: 18px;
+	font-weight: bold;
+	color: red;
+}
+
+.select{
+	width: 185px;
+	padding: 5px;
+}
+
+.txtAtualizar{
+	color: red;
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.txtAtualizar:hover{
+	text-decoration: underline;
+}
+
+.selectNumero{
+	width: auto;
+	padding: 5px;
+}
+
+.divSelectNum{
+	border-left: 1px solid #888888;
+	height: 50px;
+	float: left;
+	padding-left: 15px; 
+	margin-right: 15px;
+}
+
+.divSelectOrdem{
+	float: left;
+	margin-right: 15px;
+}
+
+.txtVoltar {
+	margin-top: 5px;
+}
+
+.txtVoltar a{
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	color: red;
+}
+
+.txtVoltar a:hover{
+	text-decoration: underline;
+	color: #000000;
+}
+
+.txtAviso{
+	margin-top: 7px;
+	margin-left: 25px;
+	color: red; 
+}
+
+.txtAvisoCampo{
+	color: red; 
+	margin-bottom: 4px;
+}

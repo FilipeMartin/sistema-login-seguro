@@ -1,0 +1,12 @@
+-------- Usuários cadastrados --------
+
+<- Primeiro login ->
+
+Login: login
+Senha: segurança
+--------------------------------------
+
+<- Segundo login ->
+
+Login: login2
+Senha: segurança2
